@@ -1,12 +1,21 @@
 import React from 'react'
-import Navbar from '../components/Navbar/Navbar'
+import LandingSection from '../components/Landing/Landing'
+import LayoutMain from '../components/DataSection/LayoutMain'
+import { homeObjCareerHighlight, homeObjGitHub, homeObjNow, homeObjTechStack } from '../components/DataSection/Data'
+import Footer from '../components/Footer/Footer'
+
 
 const Home = () => {
   return (
     <>
-    <Navbar/>
+  
     <div className="home">
-        <h1>Home Page</h1>
+        <LandingSection/>
+        <LayoutMain {...homeObjGitHub}/>
+        <LayoutMain {...homeObjTechStack}/>
+        <LayoutMain {...homeObjCareerHighlight}/>
+        <LayoutMain {...homeObjNow}/>
+        <Footer />
     </div>
 
     </>
