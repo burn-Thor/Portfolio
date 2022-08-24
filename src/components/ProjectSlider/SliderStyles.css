@@ -1,0 +1,31 @@
+.Slider{
+    height: 600px;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.MySwiper{
+    max-width: 100%;
+    max-height: 1000px;
+}
+
+img{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    object-fit:contain;
+
+}
+
+p{
+    text-align: center;
+}
+h3{
+    background-color: #345995;
+    color: #A0A1A1;
+    text-align: center;
+  }
+  

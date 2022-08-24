@@ -14,7 +14,7 @@ const About = () => {
     <br/>
     <h1>Olly</h1>
     <br/>
-    <h3>Full stack software developer</h3>
+    <h4>Full stack software developer</h4>
     <br/>
     <p>A Manchester-based web developer who loves designing and building custom online experiences, through websites and web applications.</p>
     <br/>

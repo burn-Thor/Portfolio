@@ -1,6 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import {Link as LinkStyled} from 'react-router-dom'
 import './StyledNav.css'
+import styled from 'styled-components'
 
 const Navbar = () => {
   return (
@@ -9,20 +10,18 @@ const Navbar = () => {
       <div className="navContainer">
         
         <div className="NavHome">
-          <Link to="/">OT</Link>
+          <LinkStyled to="/">OT</LinkStyled>
         </div>
 
         <div className="NavMenu">
           <div className="MenuItem">
-            <ul>
-              <li><Link to="/About">About</Link></li>
-              <li><Link to="/Contact">Contact</Link></li>
-            </ul>
+            <div className="theItem"><LinkStyled to="/About">About</LinkStyled></div>
+            <div className="theItem"><LinkStyled to="/Contact">Contact</LinkStyled></div>          
           </div>
         </div>
 
         <div className="NavBtn">
-          <Link to="/Projects">Projects</Link>
+          <LinkStyled to="/Projects">Projects</LinkStyled>
         </div>
 
       </div>
@@ -32,4 +31,8 @@ const Navbar = () => {
   )
 }
 
+const navContainer = styled(LinkStyled)`
+color: pink`
+
 export default Navbar
+
