@@ -1,7 +1,12 @@
 import React from 'react'
 import { FooterContainer, FooterLinksItems, FooterLinkTitle, FooterLink } from './FooterStyles'
 
+// const button = ({children}) => {
+//   <button>{children}</button>
+// }
+
 const Footer = () => {
+
   return (
     <FooterContainer>
       
@@ -12,9 +17,10 @@ const Footer = () => {
                             
                            
                             <FooterLink to='/Contact'>Contact</FooterLink>
-                            <FooterLink to={{pathname:'https://burn-thor.github.io/SpaceInvada/'}}target="_blank">Space Invaders</FooterLink>
-                            <FooterLink to='/Snake'>Snake</FooterLink>
 
+                            <FooterLink to='/About'>About</FooterLink>
+
+                            <a className="Games" href='https://burn-thor.github.io/SpaceInvada/' target="_blank" rel='noreferrer'> Space Invaders</a>
 
                         
                     </FooterLinksItems>

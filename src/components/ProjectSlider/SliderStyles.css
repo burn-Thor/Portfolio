@@ -2,6 +2,9 @@
     height: 600px;
     width: 100%;
     object-fit: contain;
+    background-color: #A0A1A1;
+    color:#345995;
+    font-weight: bold;
 
 }
 

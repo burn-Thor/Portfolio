@@ -5,7 +5,8 @@ import {Link} from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
     display: flex;
-    background-color: #2F3061;
+    background: #345995;
+    border: 5px solid #2F3061;
     @media screen and (max-width: 820px) {
         padding: 32px;
     }
@@ -45,6 +46,20 @@ export const FooterLinksItems = styled.div`
     &:hover {
         color: #43BCCD;
         transition: 0.3s ease-out;
+    }
+    `
+    export const Games = styled.a`
+    display: flex;
+    flex-wrap: nowrap;
+    color: #A0A1A1;
+    background-color: #43BCCD;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 18px;
+
+    &:hover {
+    color: #43BCCD;
+    transition: 0.3s ease-out;
     }
     `
 
