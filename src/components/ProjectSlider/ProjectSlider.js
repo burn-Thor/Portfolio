@@ -10,6 +10,7 @@ import CRUD from './img/CRUD.png'
 import GroupProject from './img/GroupProject.png'
 import FacetedSearch from './img/FacetedSearch.png'
 import DarkMode from './img/DarkMode.png'
+import FitnessTracker from './img/FitnessTracker.png'
 
 import React from 'react'
 
@@ -54,6 +55,10 @@ const ProjectSlider = () => {
     <SwiperSlide className='SwiperSlide'>
         <img src = {DarkMode} alt="First Darkmode feature in react" />
         <p>As a ex-salesperson, it felt satisfying to code a similar platform to what I used to live in. Following a tutorial but adding my own spin, I was particularly happy with the dark mode setting.</p>
+    </SwiperSlide>
+    <SwiperSlide className='SwiperSlide'>
+        <img src = {FitnessTracker} alt="MERN stack fitness tracker" />
+        <p>It was very satisying to make something genuinely useful, albeit never used... A fitness tracker using the MERN stack with CRUD functions.</p>
     </SwiperSlide>
 
         </Swiper>
