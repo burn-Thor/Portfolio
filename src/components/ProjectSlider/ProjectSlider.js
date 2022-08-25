@@ -1,5 +1,4 @@
 import './SliderStyles.css'
-import {useRef} from 'react'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css'
 import {Navigation, EffectFade} from 'swiper'
@@ -15,38 +14,6 @@ import DarkMode from './img/DarkMode.png'
 import React from 'react'
 
 const ProjectSlider = () => {
-
-const ProjectScreenshots = [
-  {
-    image: Drumkit,
-    description: "The first time within development that I was happy with the final result, this was a solo project completed in 2 days during the 4th week of bootcamp.",
-    key: 1  
-  },
-  {
-    image: Login,
-    description: "It took me far too long to figure out this simple log in with Node.js & Express.js, oh the joy when I did!",
-    key: 2
-  },
-  {
-    image: CRUD,
-    description: "How the code looks for my first ever CRUD functions. The brief was to use one of each CRUD commands within a custom movies REST API, you'll see shortly how this has progressed...",
-    key: 3
-  },
-  {
-    image: GroupProject,
-    description: "An ecommerce website created towards the end of the bootcamp, this is a full stack project developed in a group. My role was the front-end lead.",
-    key: 4
-  },
-  {
-    image: FacetedSearch,
-    description: "Potentially the most taxing backend code I have written so far... As part of the MongoDB 220JS qualification that I started after the bootcamp, this screenshot shows most of the logic behind a faceted search option for the end user.",
-    key: 5
-  },
-  {
-    image: DarkMode,
-    description: "As a ex-salesperson, it felt satisfying to code a similar platform to what I used to live in. Following a tutorial but adding my own spin, I was particularly happy with the dark mode setting."
-  }
-]
 
   return (
    
