@@ -68,6 +68,6 @@ nav{
 }
 
 .NavBtn:hover {
-        background-color: #345995;
-        transition: 0.3s ease-out;
+        background-color: #084C61;
+        transition: 0.9s ease-in-out;
     }
