@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link as LinkStyled} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import './StyledNav.css'
 import styled from 'styled-components'
 
@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
 
         <div className="NavBtn">
-          <LinkStyled to="/Projects">Projects</LinkStyled>
+          <LinkStyledd to="/Projects">Projects</LinkStyledd>
         </div>
 
       </div>
@@ -31,8 +31,22 @@ const Navbar = () => {
   )
 }
 
-const navContainer = styled(LinkStyled)`
-color: pink`
+const LinkStyled = styled(Link)`
+  color: #A0A1A1;
+    
+    &:hover {
+        color: #43BCCD;
+        transition: 0.3s ease-out;
+    }
+`
+const LinkStyledd = styled(Link)`
+  color: #2F3061;
+    
+    &:hover {
+        color: #43BCCD;
+        transition: 0.3s ease-out;
+    }
+`
 
 export default Navbar
 

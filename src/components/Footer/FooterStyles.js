@@ -1,12 +1,15 @@
 import styled from "styled-components";
 import {Link} from 'react-router-dom';
 
-
+export const BackgroundC = styled.div`
+    background-color:#2F3061;
+`
 
 export const FooterContainer = styled.footer`
     display: flex;
     background: #345995;
-    border: 5px solid #2F3061;
+    border: 8px solid #2F3061;
+    border-radius: 25px 25px 0px 0px;
     @media screen and (max-width: 820px) {
         padding: 32px;
     }
@@ -52,7 +55,6 @@ export const FooterLinksItems = styled.div`
     display: flex;
     flex-wrap: nowrap;
     color: #A0A1A1;
-    background-color: #43BCCD;
     text-decoration: none;
     margin-bottom: 0.5rem;
     font-size: 18px;

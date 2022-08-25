@@ -24,7 +24,7 @@ const ProjectScreenshots = [
   },
   {
     image: Login,
-    description: "It took me far too long to figure out this simple log in, oh the joy when I did!",
+    description: "It took me far too long to figure out this simple log in with Node.js & Express.js, oh the joy when I did!",
     key: 2
   },
   {
@@ -70,7 +70,7 @@ const ProjectScreenshots = [
     </SwiperSlide>
     <SwiperSlide className='SwiperSlide'>
         <img src = {Login} alt="First Login feature" />
-        <p>It took me far too long to figure out this simple log in, oh the joy when I did!</p>
+        <p>It took me far too long to figure out this simple log in with Node.js & Express.js, oh the joy when I did!</p>
     </SwiperSlide>
     <SwiperSlide className='SwiperSlide'>
         <img src = {CRUD} alt="First workable CRUD function" />

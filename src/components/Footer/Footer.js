@@ -1,5 +1,5 @@
 import React from 'react'
-import { FooterContainer, FooterLinksItems, FooterLinkTitle, FooterLink } from './FooterStyles'
+import { FooterContainer, FooterLinksItems, FooterLinkTitle, FooterLink, BackgroundC, Games } from './FooterStyles'
 
 // const button = ({children}) => {
 //   <button>{children}</button>
@@ -8,6 +8,7 @@ import { FooterContainer, FooterLinksItems, FooterLinkTitle, FooterLink } from '
 const Footer = () => {
 
   return (
+    <BackgroundC>
     <FooterContainer>
       
 
@@ -20,13 +21,14 @@ const Footer = () => {
 
                             <FooterLink to='/About'>About</FooterLink>
 
-                            <a className="Games" href='https://burn-thor.github.io/SpaceInvada/' target="_blank" rel='noreferrer'> Space Invaders</a>
+                            <Games href='https://burn-thor.github.io/SpaceInvada/' target="_blank" rel='noreferrer'> Space Invaders</Games>
 
                         
                     </FooterLinksItems>
 
   
     </FooterContainer>
+    </BackgroundC>
   )
 }
 
