@@ -40,7 +40,7 @@ const LinkStyled = styled(Link)`
     }
 `
 const LinkStyledd = styled(Link)`
-  color: #2F3061;
+  color: #084C61;;
     
     &:hover {
         color: #43BCCD;
