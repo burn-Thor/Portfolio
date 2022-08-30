@@ -5,7 +5,7 @@ export const homeObjTechStack = {
     lightHeadingDesc: true,
     topLine: 'My Technologies',
     headline: 'Full stack capabilities',
-    description: 'Front end: HTML, CSS, JavaScript, REACT.js, Next.js'<br>'backend: C#.NET, NODE.js, Express.js'<br> 'database: MySQL, MongoDB, Mongoose',
+    description: 'Frontend: HTML, CSS, JavaScript, REACT.js, Next.js. Backend: C#.NET, NODE.js, Express.js. Database: MySQL, MongoDB, Mongoose',
     buttonLabel: 'Favourite Project',
     imgStart: false,
     img: require('../../img/retro.jpg'),
