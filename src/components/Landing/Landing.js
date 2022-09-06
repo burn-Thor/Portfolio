@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Image from '../../img/chipMicroTransistors&Circuits.jpg';
-import { LandingContainer, FullStackBg, ImageBg, FullStackContent, FsH1, FsH2, FsP, FsBtnWrapper } from './LandingStyles';
+import { LandingContainer, FullStackBg, ImageBg, FullStackContent, FsH1, FsP, FsBtnWrapper } from './LandingStyles';
 import { Button } from '../ButtonElements';
 
 
@@ -22,9 +22,9 @@ const LandingSection = () => {
         <FullStackContent>
             <FsH1>Olly Thorburn</FsH1>
             
-            <FsH2>Full Stack Developer</FsH2>
             
-            <FsP>Disciplined, enthusiastic and creative, excited to start work as a Junior Dev.</FsP>
+            
+            <FsP>Disciplined, enthusiastic and creative, excited by a new challenge.</FsP>
 
             <FsBtnWrapper>
             <Button

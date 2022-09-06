@@ -41,7 +41,7 @@ export const homeObjNow = {
     lightHeadingDesc: true,
     topLine: 'Current Situation',
     headline: 'Part-time work whilst self-teaching development',
-    description: 'Having spent 7 years working in technology sales, and taking a short career break to travel South America, I am really excited by this new challenge. Up-skilling into software development gives me the perfect opportunity to dive deeper into the exciting world of technology.',
+    description: 'C#.NET, Next.js & MongoDB, in my opinion this is the the best tech stack for quick, scalable, feature rich applications. So I\'m spending my time improving my capabilities within these technologies, spending most of that time on Next.js. I\'m currently designing a pizza delivery application and creating an e-commerse website for a charity based side project.',
     // buttonLabel: 'Travel Photos',
     imgStart: false,
     img: require('../../img/retro_luggage.jpg'),

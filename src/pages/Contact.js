@@ -4,8 +4,9 @@ import styled from 'styled-components'
 const Contact = () => {
   return (
     <Container>
-      <h2>Contact Details</h2>
+      <h2>Contact Details:</h2>
       <p>eothorburn@gmail.com</p>
+      <br/>
       <p>07494 213 241</p>
     </Container>
   )
@@ -14,6 +15,7 @@ const Contact = () => {
 const Container = styled.div`
   background-color: #A0A1A1;
   color: #2F3061;
+  padding: 5rem 3rem 35rem;
   `
 
 export default Contact
