@@ -32,7 +32,7 @@ const About = () => {
 const Container = styled.div`
   background-color: #A0A1A1;
   color: #2F3061;
-  padding: 5rem;
+  padding: 5rem 5rem 25rem;
   
   `
 
